@@ -1,0 +1,114 @@
+body {
+	margin: 0;
+	width: 1275px;
+	font-family: 'Barlow';
+	font-size: 130%;
+}
+
+#head {
+	background-color: #ca1551;
+	overflow: auto;
+}
+
+#content {
+	padding: 10px;
+}
+
+#contact-info {
+	font-size: 130%;
+}
+
+h1 {
+	text-align: center;
+	margin: 10px;
+	padding-top: 10px;
+	color: white;
+	font-size: 120px;
+}
+
+h2 {
+	color: #ca1551;
+	margin-bottom: 0px;
+}
+
+hr {
+	color: #ca1551;
+	/* border-width: 2px; */
+	width: 98%;
+	float: left;
+}
+
+h3 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+h3.role {
+	font-style: italic;
+}
+
+h4 {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-style: italic;
+}
+
+div.job {
+	clear: both;
+	padding: 25px 0 25px 0;
+}
+
+div.top {
+	padding: 0;
+	margin: 0;
+}
+
+h2.more-space {
+	margin-top: 60px;
+}
+
+
+#contact-info {
+	text-align: center;
+	margin: 10px;
+	padding-bottom: 15px;
+	color: white;
+}
+
+#column1 {
+	padding-left: 20px;
+	width: 28%;
+	float: left;
+}
+
+#column2 {
+	padding-right: 20px;
+	width: 68%;
+	float: right;
+}
+
+div.left {
+	width: 33%;
+	float: left;
+}
+
+div.right {
+	width: 67%;
+	float: right;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+
+}
+
+.clear {
+	clear: both;
+}
+
+.date {
+	margin-top: 0;
+	padding-top: 0;
+}
