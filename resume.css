@@ -1,21 +1,26 @@
+:root {
+	/* --main-color: #ca1551; */ /* pink */
+	/* --main-color: #f06543; */ /* orange-ish */
+	/* --main-color: #233d4d; */ /* blue */
+	/* --main-color: #4b3b47; */ /* purple gray */
+	/* --main-color: #ba1b1d; */ /* red */
+	--main-color: #df2935; /* rosy pink */
+}
+
 body {
 	margin: 0;
-	width: 1275px;
+	width: 1275px; /* paper width */
 	font-family: 'Barlow';
 	font-size: 130%;
 }
 
 #head {
-	background-color: #ca1551;
+	background-color: var(--main-color);
 	overflow: auto;
 }
 
 #content {
 	padding: 10px;
-}
-
-#contact-info {
-	font-size: 130%;
 }
 
 h1 {
@@ -27,15 +32,12 @@ h1 {
 }
 
 h2 {
-	color: #ca1551;
+	color: var(--main-color);
 	margin-bottom: 0px;
 }
 
-hr {
-	color: #ca1551;
-	/* border-width: 2px; */
-	width: 98%;
-	float: left;
+h2.more-space {
+	margin-top: 60px;
 }
 
 h3 {
@@ -53,6 +55,10 @@ h4 {
 	font-style: italic;
 }
 
+#contact-info {
+	font-size: 120%;
+}
+
 div.job {
 	clear: both;
 	padding: 25px 0 25px 0;
@@ -62,11 +68,6 @@ div.top {
 	padding: 0;
 	margin: 0;
 }
-
-h2.more-space {
-	margin-top: 60px;
-}
-
 
 #contact-info {
 	text-align: center;
@@ -83,12 +84,12 @@ h2.more-space {
 
 #column2 {
 	padding-right: 20px;
-	width: 68%;
+	width: 67%;
 	float: right;
 }
 
 div.left {
-	width: 33%;
+	width: 32%;
 	float: left;
 }
 
@@ -111,4 +112,16 @@ ul {
 .date {
 	margin-top: 0;
 	padding-top: 0;
+}
+
+hr {
+	color: var(--main-color);
+	width: 100%;
+	float: left;
+}
+
+em {
+	font-style: italic;
+	font-weight: bold;
+	font-size: 90%;
 }
