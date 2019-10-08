@@ -1,177 +1,202 @@
 <!DOCTYPE html>
 <html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="resume.css">
+		<link href="https://fonts.googleapis.com/css?family=Barlow&display=swap" rel="stylesheet">
+		<meta charset="UTF-8">
+	</head>
 
-<head>
-	<link rel="stylesheet" type="text/css" href="resume.css">
-	<link href="https://fonts.googleapis.com/css?family=Barlow&display=swap" rel="stylesheet">
-	<meta charset="UTF-8">
-</head>
-
-<body>
-	<div id="head">
-	<h1 id="name"> Madeleine Young </h1>
-	<p id="contact-info">
-		madeleine.rgr.young@gmail.com <br>
-		GitHub: madeleine-rgr-young <br>
-		269-254-6155
-	</p>
-	</div>
-
-	<div id="content">
-
-		<div id="column1">
-			<h2> Education </h2>
-			<hr>
-			<h3> Plymouth State University </h3>
-			<h4> BS in Computer Science </h4>
-			<h4> Minor in General Mathematics </h4>
-			<p>
-			Expected Graduation Dec. 2019 <br>
-			GPA 3.77
-			<p>
-
-			<h2> Extracurricular </h2>
-			<hr>
-			<ul>
-				<li> Member of Plymouth State University Competitive Programming Team </li>
-			</ul>
-
-			<h2> Skills </h2>
-			<hr>
-			<ul>
-				<li> Java </li>
-				<li> JavaScript </li>
-				<li> Semantic HTML </li>
-				<li> CSS </li>
-				<li> Bootstrap </li>
-				<li> MySql </li>
-				<li> MariaDB </li>
-				<li> Cypress </li>
-				<li> LaTeX </li>
-				<li> Object-Oriented Programming </li>
-				<li> Agile Methodology </li>
-				<li> Verbal and Written Communication </li>
-				<li> Presentation Skills </li>
-				<li> Teamwork </li>
+	<body>
+		<div id="head">
+			<h1 id="name"> Madeleine Young </h1>
+			<ul id="contact-info">
+				<li class="contact">madeleine.rgr.young@gmail.com</li>
+				<li class="contact">linkedin.com/in/madeleine-rgr-young</li>
+				<li class="contact">github.com/madeleine-rgr-young</li>
+				<li class="contact">269-254-6155</li>
 			</ul>
 		</div>
 
-		<div id="column2">
-			<h2> Experience </h2>
-			<hr>
-
-			<div class="job top">
-				<div class="left">
-					<h3> Fidelity Investments </h3>
-					<p class="date"> May 2019 - August 2019 </p>
-				</div>
-				<div class="right">
-					<h3 class="role">Software Engineering Intern - Quality Assurance</h3>
-					<ul class="desc">
-						<li> Automated end-to-end testing of an internal trading website <em>(Cypress, JavaScript, Cucumber)</em>.</li>
-					</ul>
-				</div>
+		<div id="content">
+			<div id="summary">
+				<p>
+					Graduating Computer Science student with internship experience. Interested in user-centered, accessible, and semantic design. Proven history of communication, teamwork, and creative problem-solving.
+				</p>
 			</div>
-
-			<div class="job">
-				<div class="left">
+			<div id="right-column">
+				<div id="education">
+					<h2> Education </h2>
+					<hr>
 					<h3> Plymouth State University </h3>
-					<p class="date"> January 2019 - Present </p>
+					<p class="date">
+					Expected Graduation: Dec. 2019
+					<p>
+					<h3 class="top role"> BS in Computer Science </h3>
+					<h3 class="role"> Minor in General Mathematics </h3>
+					<ul class="education desc">
+						<li>GPA 3.77</li>
+						<li>Member of Competitive Programming Team</li>
+						<li> Notable Coursework: Web Programming, Software Engineering, Algorithm Analysis, Database Management, Differential Equations, Linear Algebra</li>
+					</ul>
 				</div>
-				<div class="right">
-					<h3 class="role">Computer Science Department Fellow</h3>
-					<ul class="desc">
-						<li> Created website allowing adding, editing, and searching database of senior projects <em>(HTML, Bootstrap, PHP, JavaScript, MySql)</em> </li>
-						<li> Lab assistant and grader for Computer Hardware </li>
-						<li> Tutor during walk-in department tutoring hours </li>
+
+				<div id="skills">
+					<h2> Skills </h2>
+					<hr>
+					<ul class="skills">
+						<li class="skills"> JavaScript </li>
+						<li class="skills"> JQuery </li>
+						<li class="skills"> Semantic HTML </li>
+						<li class="skills"> CSS </li>
+						<li class="skills"> Bootstrap </li>
+						<li class="skills"> PHP </li>
+						<li class="skills"> MySql &amp; MariaDB</li>
+						<li class="skills"> Socket.io </li>
+						<li class="skills"> Cypress </li>
+						<li class="skills"> LaTeX </li>
+						<li class="skills"> Git &amp; GitHub </li>
+						<li class="skills"> Object-Oriented Programming </li>
+						<li class="skills"> Agile Methodology </li>
+						<li class="skills"> Written and Verbal Communication </li>
+						<li class="skills"> Presentation Skills </li>
+						<li class="skills"> Working knowledge of: Node.js, TypeScript, Angular, Python, C/C++/C#, WordPress, Firebase, Chapel </li>
 					</ul>
 				</div>
 			</div>
 
-			<div class="job">
-				<div class="left">
-					<h3> Fidelity Investments </h3>
-					<p class="date"> July 2016 - August 2017 </p>
-				</div>
-				<div class="right">
-					<h3 class="role">Software Engineering Intern - Quality Assurance</h3>
-					<ul class="desc">
-						<li> Manual testing of an algorithmic trading application <em>(Command Line, FIX Protocol)</em> </li>
-						<li> Created training documentation on application </li>
-					</ul>
-				</div>
-			</div>
+			<div id="left-column">
+				<div id="experience">
+					<h2> Experience </h2>
+					<hr>
+					<div class="job top">
+						<div class="left">
+							<h3> Fidelity Investments </h3>
+							<p class="date"> May 2019 - Aug. 2019 </p>
+						</div>
+						<div class="right">
+							<h3 class="role">Software Engineering Intern - Quality Assurance</h3>
+							<ul class="desc job">
+								<li> Automated end-to-end testing of an internal trading website, allowing the same tests to be run with different inputs and tests to continue after previous test failures. <em>(Cypress, JavaScript, Cucumber)</em></li>
+							</ul>
+						</div>
+					</div>
 
-			<div class="job">
-				<div class="left">
-					<h3> Plymouth State University </h3>
-					<p class="date"> January 2018 - December 2018 </p>
-				</div>
-				<div class="right">
-					<h3 class="role"> Tutor/Lab Assistant, Computer Science Department </h3>
-					<ul class="desc">
-						<li> Tutor during walk-in department tutoring hours <em>(Python, Java, C/C++,
-						Database Management, and Algorithm Analysis)</em> </li>
-						<li> Lab Assistant for Data Structures and Intermediate Programming <em>(Java)</em> </li>
-					</ul>
-				</div>
-			</div>
+					<div class="job">
+						<div class="left">
+							<h3> Plymouth State University </h3>
+							<p class="date"> Jan. 2019 - Present </p>
+						</div>
+						<div class="right">
+							<h3 class="role">Computer Science Department Fellow</h3>
+							<ul class="desc job">
+								<li> Tutor during walk-in department tutoring hours. </li>
+								<li> Created website for use by the PSU CS/IT Department administrator to manage database of senior projects. <em>(HTML, Bootstrap, PHP, JavaScript, MariaDB)</em> </li>
+								<li> Lab assistant and grader for Computer Hardware. </li>
+							</ul>
+						</div>
+					</div>
 
-			<div class="job bottom">
-				<div class="left">
-					<h3> Plymouth State University </h3>
-					<p class="date"> January 2018 - Present </p>
-				</div>
-				<div class="right">
-					<h3 class="role"> Tutor, Math Activities Center </h3>
-					<ul class="desc">
-						<li> Tutor in the walk-in Math Activities Center <em>(College Algebra, Logic and Proofs,
-						Calculus I, II, &amp; applied, and Math for Computer Science)</em> </li>
-					</ul>
-				</div>
-			</div>
+					<div class="job">
+						<div class="left">
+							<h3> Fidelity Investments </h3>
+							<p class="date"> June 2018 - Dec. 2018 </p>
+						</div>
+						<div class="right">
+							<h3 class="role">Software Engineering Intern - Quality Assurance</h3>
+							<ul class="desc job">
+								<li> Manual testing of an algorithmic trading application. <em>(Command Line, FIX Protocol)</em> </li>
+								<li> Created training documentation on application and presented to upper management. </li>
+							</ul>
+						</div>
+					</div>
 
-			<h2 class="clear more-space"> Selected Projects </h2>
-			<hr>
+					<div class="job">
+						<div class="left">
+							<h3> Plymouth State University </h3>
+							<p class="date"> Jan. 2018 - Dec. 2018 </p>
+						</div>
+						<div class="right">
+							<h3 class="role"> Tutor/Lab Assistant, Computer Science Department </h3>
+							<ul class="desc job">
+								<li> Tutor during walk-in department tutoring hours. <em>(Python, Java, C/C++,
+								Database Management, and Algorithm Analysis)</em> </li>
+								<li> Lab Assistant for Data Structures and Intermediate Programming. <em>(Java)</em> </li>
+							</ul>
+						</div>
+					</div>
 
-			<div class="job top">
-				<div class="left">
-					<h3> Online Go </h3>
-					<p class="date"> August 2019 - Present </p>
-				</div>
-				<div class="right">
-					<ul>
-						<li> Design and implement a website to play Go online <em>(Angular, Socket.io)</em> </li>
-					</ul>
-				</div>
-			</div>
+					<div class="job">
+						<div class="left">
+							<h3> Plymouth State University </h3>
+							<p class="date"> Jan. 2018 - Present </p>
+						</div>
+						<div class="right">
+							<h3 class="role"> Tutor, Math Activities Center </h3>
+							<ul class="desc job">
+								<li> Tutor in the walk-in Math Activities Center. <em>(College Algebra, Logic and Proofs,
+								Calculus I, II, &amp; applied, and Math for Computer Science)</em> </li>
+							</ul>
+						</div>
+					</div>
 
-			<div class="job">
-				<div class="left">
-					<h3> Photo Album Application </h3>
-					<p class="date"> August 2019 - Present </p>
-				</div>
-				<div class="right">
-					<ul class="desc">
-						<li> Create a photo album application <em>(Java)</em></li>
-					</ul>
-				</div>
-			</div>
-
-			<div class="job">
-				<div class="left">
-					<h3> Parallel Programming Design Pattern </h3>
-					<p class="date"> January 2019 - May 2019 </p>
-				</div>
-				<div class="right">
-					<ul class="desc">
-						<li> Implemented new Parallel Programming Design Pattern based on Dispatcher/Worker Pattern <em>(Java)</em></li>
-					</ul>
+				<div class="job bottom">
+					<div class="left">
+						<h3> MSPCA Angell Animal Medical Center </h3>
+						<p class="date"> March 2015 - Aug. 2017 </p>
+					</div>
+					<div class="right">
+						<h3 class="role">Client Liaison and Boarding Specialist</h3>
+						<ul class="desc job">
+							<li>Communication liaison between medical staff and the public.</li>
+							<li>Scheduled appointments, managed boarding reservations, provided guidance for owners experiencing animal-related
+emergencies, participated in training new team members.</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
 
-	</div>
-</body>
+			<div id="projects">
+				<div class="project-head">
+					<h2 class="clear more-space"> Projects </h2>
+					<hr>
+				</div>
+				<div class="project top">
+					<div class="left-project">
+						<h3> Online Go </h3>
+						<p class="date"> Aug. 2019 - Present </p>
+					</div>
+					<div class="right-project">
+						<ul class="desc">
+							<li> Design and implement a website to play Go with another player in real time with rule enforcement. <em>(HTML, CSS, JQuery, Node.js, Socket.io)</em> </li>
+						</ul>
+					</div>
+				</div>
 
+				<div class="project">
+					<div class="left-project">
+						<h3> Photo Album Application </h3>
+						<p class="date"> Aug. 2019 - Present </p>
+					</div>
+					<div class="right-project">
+						<ul class="desc">
+							<li> Design and implement a photo album application using modular design to allow for code reuse when faced with changing requirements. <em>(Java)</em></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="project">
+					<div class="left-project">
+						<h3> Dice Rolling Application </h3>
+						<p class="date"> April 2019 - May 2019 </p>
+					</div>
+					<div class="right-project">
+						<ul class="desc">
+							<li> Created a mobile application (Android) to visualize and record polyhedral dice rolls. <em>(Java, XML, Firebase)</em></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+	</body>
 </html>

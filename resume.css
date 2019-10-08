@@ -1,17 +1,18 @@
 :root {
-	/* --main-color: #ca1551; */ /* pink */
-	/* --main-color: #f06543; */ /* orange-ish */
-	/* --main-color: #233d4d; */ /* blue */
-	/* --main-color: #4b3b47; */ /* purple gray */
-	/* --main-color: #ba1b1d; */ /* red */
-	--main-color: #df2935; /* rosy pink */
+
+	/* slatey blue, more subdued */
+	--main-color: #233d4d;
+	/* lighter */
+	--main-color: #2b5998;
+	/* slatey blue, more blue */
+	/* --main-color: #143b61; */
 }
 
 body {
 	margin: 0;
 	width: 1275px; /* paper width */
 	font-family: 'Barlow';
-	font-size: 130%;
+	font-size: 117%;
 }
 
 #head {
@@ -19,30 +20,99 @@ body {
 	overflow: auto;
 }
 
+#contact-info {
+	font-size: 100%;
+	text-align: center;
+	margin: 5px;
+	padding-bottom: 13px;
+	margin-top: 0px;
+	color: white;
+	/* font-weight: bold; */
+}
+
 #content {
 	padding: 10px;
+}
+
+#summary {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 0;
+	margin-bottom: -20px;
+	font-size: 112%;
+	font-style: italic;
+}
+
+/* #left-column {
+	padding-left: 20px;
+	width: 28%;
+	float: left;
+}
+
+#right-column {
+	padding-right: 20px;
+	width: 67%;
+	float: right;
+} */
+
+#left-column {
+	padding-left: 20px;
+	width: 67%;
+	float: left;
+}
+
+#right-column {
+	padding-right: 20px;
+	width: 28%;
+	float: right;
+}
+
+#projects {
+	/* padding-left: 20px;
+	padding-right: 20px; */
+}
+
+div.left-project {
+	padding-left: 20px;
+	width: 19%;
+	float: left;
+}
+
+div.right-project {
+	padding-right: 20px;
+	width: 76%;
+	float: right;
 }
 
 h1 {
 	text-align: center;
 	margin: 10px;
-	padding-top: 10px;
+	padding-top: 15px;
 	color: white;
-	font-size: 120px;
+	font-size: 100px;
+	margin-bottom: 0;
 }
 
 h2 {
 	color: var(--main-color);
 	margin-bottom: 0px;
+	font-weight: 600;
+}
+
+h2.projects {
+		padding-left: 20px;
+		padding-right: 20px;
 }
 
 h2.more-space {
-	margin-top: 60px;
+		padding-top: 5px;
 }
 
 h3 {
 	margin-top: 0;
 	margin-bottom: 0;
+	font-weight: 600;
+	font-size: 130%;
 }
 
 h3.role {
@@ -55,13 +125,19 @@ h4 {
 	font-style: italic;
 }
 
-#contact-info {
-	font-size: 120%;
+h4.top {
+	margin-top: 20px;
 }
+
 
 div.job {
 	clear: both;
-	padding: 25px 0 25px 0;
+	padding: 20px 0 20px 0;
+}
+
+div.project {
+	clear: both;
+	padding: 0;
 }
 
 div.top {
@@ -69,32 +145,14 @@ div.top {
 	margin: 0;
 }
 
-#contact-info {
-	text-align: center;
-	margin: 10px;
-	padding-bottom: 15px;
-	color: white;
-}
-
-#column1 {
-	padding-left: 20px;
-	width: 28%;
-	float: left;
-}
-
-#column2 {
-	padding-right: 20px;
-	width: 67%;
-	float: right;
-}
-
 div.left {
-	width: 32%;
+	width: 30%;
 	float: left;
 }
+
 
 div.right {
-	width: 67%;
+	width: 69%;
 	float: right;
 }
 
@@ -102,7 +160,33 @@ ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+}
 
+ul.skills {
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+ul.education {
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+ul.job {
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+li {
+	padding-top: 5px;
+}
+
+li.contact {
+	padding-top: 0;
+}
+
+li.skills {
+	padding-top: 5px;
 }
 
 .clear {
@@ -120,7 +204,13 @@ hr {
 	float: left;
 }
 
+.project-head {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
 em {
 	font-style: italic;
 	font-weight: bold;
+	/* font-size: 90%; */
 }
