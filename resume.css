@@ -105,7 +105,8 @@ h2.projects {
 }
 
 h2.more-space {
-		padding-top: 5px;
+	padding-top: 0;
+	margin-top: -50px;
 }
 
 h3 {
@@ -133,6 +134,7 @@ h4.top {
 div.job {
 	clear: both;
 	padding: 20px 0 20px 0;
+	/* margin-top: 120px; */
 }
 
 div.project {
@@ -178,7 +180,7 @@ ul.job {
 }
 
 li {
-	padding-top: 5px;
+	padding-top: 2px;
 }
 
 li.contact {
@@ -186,6 +188,10 @@ li.contact {
 }
 
 li.skills {
+	padding-top: 0px;
+}
+
+li.job {
 	padding-top: 5px;
 }
 
@@ -196,6 +202,14 @@ li.skills {
 .date {
 	margin-top: 0;
 	padding-top: 0;
+}
+
+.location {
+	margin-top: 0;
+	padding-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	font-weight: bold;
 }
 
 hr {
